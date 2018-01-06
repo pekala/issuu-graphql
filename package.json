@@ -1,0 +1,24 @@
+{
+  "name": "issuu-graphql",
+  "version": "1.0.0",
+  "description": "Simple GraphQL server for issuu public APIs",
+  "main": "src/index.js",
+  "repository": "https://github.com/pekala/issuu-graphql",
+  "author": "Maciek Pekala <m@peka.la>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.3.2",
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "graphql": "^0.12.3",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-tools": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.8"
+  }
+}
